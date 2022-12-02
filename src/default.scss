@@ -1,0 +1,155 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(246, 244, 224);
+    font-size: 55px;
+    left: 70px;
+}
+
+.phone{
+    display: flex;
+    height: 100%;
+    width: 470px;
+    background-color: rgba(20, 154, 216, 0.856);
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+.teub{
+    display: flex;
+    background: url("./assets/images/cloud.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow-x: hidden;
+}
+
+.lob{
+    width: 100%;
+    text-decoration: none;
+}
+.teubdeu{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbl{
+    background-color: rgba(47, 120, 255, 0.74);
+    width: 205px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 32%;
+    border-radius: 15px;
+}
+
+.logo-2{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: -32%;
+    margin-top: -2%;
+}
+
+.search{
+    margin-top: -19%;
+    margin-left: 10%;
+}
+
+.tbl-2{
+    background-color:rgba(47, 120, 255, 0.74);
+    width: 330px;
+    height: 500px;
+    margin-top: 35%;
+    justify-content: center;
+    margin-left: -54%;
+    border-radius: 20px;
+}
+
+.tbl-3{
+    width: 230px;
+    height: 70px;
+    background-color: rgba(29, 37, 194, 0.307);
+    margin-left: -26%;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: -250%;
+}
+
+.txt{
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    right: -8%;
+    top: 20%;
+}
+
+.list{
+    padding: 5%;
+    color: rgb(255, 255, 255);
+}
+
+.degre{
+    text-decoration: none;
+    margin-left: 8%;
+}
+
+.sunny{
+    height: 32px;
+    width: 32px;
+    margin-left: 8%;
+    transform: translateY(15px);
+}
+
+.clouny{
+    height: 32px;
+    width: 40px;
+    margin-left: 8%;
+}
+
+.pluier{
+    height: 32px;
+    width: 32px;
+    margin-left: 8%;
+}
+
+.graf{
+    text-decoration: none;
+    color: rgb(18, 0, 133);
+    font-size: 18px;
+    transform: translateY(100px);
+    margin-left: 85%;
+}
