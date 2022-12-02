@@ -30,7 +30,7 @@ h1{
     width: 470px;
     background-color: rgba(20, 154, 216, 0.856);
     flex-direction: row;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .teub{
@@ -152,4 +152,10 @@ h1{
     font-size: 18px;
     transform: translateY(100px);
     margin-left: 85%;
+}
+
+.parisss{
+    margin-top: 40%;
+    margin-right: 3%;
+
 }
